@@ -1,0 +1,66 @@
+//Imports
+
+@import url("https://fonts.googleapis.com/css?family=Kurale|Lato|Merriweather");
+
+
+
+//Variables
+
+$lato-font: 'Lato', sans-serif;
+$merriweather-font: 'Merriweather', serif;
+$kurale-font: 'Kurale', serif;
+$ash-grey: #B5C2B7;
+$grey-blue: #8C93A8;
+$purple-taupe: #45364B;
+$raisen-black: #2D2327;
+$dark-lavender: #6A4C93;
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.titles {
+  font-family: $kurale-font;
+  padding: 50px;
+  font-size: 35px;
+}
+
+.Container {
+  font-family: $lato-font;
+  font-size: 20px;
+}
+
+nav {
+  position: relative;
+  background-color: $purple-taupe;
+  padding: 20px 0px;
+}
+
+nav a {
+  padding: 0px 15px;
+  color: $grey-blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $ash-grey;
+}
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Kurale', serif;
+
+COLORS:
+Ash-grey: B5C2B7
+Grey-Blue: 8C93A8
+Purple Taupe: 45364B
+Raisen Black: 2D2327
+Dark Lavender: 6A4C93
+*/
