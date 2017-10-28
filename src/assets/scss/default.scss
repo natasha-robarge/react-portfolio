@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css?family=Kurale|Lato|Merriweather");
 
 
-
 //Variables
 
 $lato-font: 'Lato', sans-serif;
@@ -20,16 +19,28 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-image: url("http://hdflowerwallpaper.com/wallpaper/2015/10/purple-rose-wallpaper-desktop-13-desktop-background.jpg");
+  position: center;
+  background-size: cover;
 }
 
 .App {
   text-align: center;
 }
 
-.titles {
+.Titles {
+  h4 {
+    text-shadow: 2px 2px $dark-lavender;
+  }
   font-family: $kurale-font;
-  padding: 50px;
+  padding: 20px 10px;
   font-size: 35px;
+  text-shadow: 3px 3px #FFF;
+}
+
+.line-rule {
+  width: 400px;
+  border: 1.5px solid $dark-lavender;
 }
 
 .Container {
@@ -38,29 +49,57 @@ body {
 }
 
 nav {
+    a {
+      padding: 0px 15px;
+      color: $grey-blue;
+      text-decoration: none;
+   }
   position: relative;
   background-color: $purple-taupe;
   padding: 20px 0px;
-}
-
-nav a {
-  padding: 0px 15px;
-  color: $grey-blue;
-  text-decoration: none;
+  border-bottom: 3px groove $ash-grey;
 }
 
 a:hover {
   color: $ash-grey;
 }
-/*
-font-family: 'Lato', sans-serif;
-font-family: 'Merriweather', serif;
-font-family: 'Kurale', serif;
 
-COLORS:
-Ash-grey: B5C2B7
-Grey-Blue: 8C93A8
-Purple Taupe: 45364B
-Raisen Black: 2D2327
-Dark Lavender: 6A4C93
-*/
+.Welcome-page {
+    .Welcome-quote {
+      font-size: 25px;
+      text-align: left;
+      padding-right: 475px;
+      padding-left: 100px;
+      padding-top: 20px;
+      font-style: italic;
+    }
+    .Quote-author {
+      font-size: 30px;
+      text-align: right;
+      font-weight: 500;
+      padding-top: 30px;
+      padding-right: 470px;
+    }
+  text-shadow: 1px 1px $ash-grey;
+  color: $grey-blue;
+}
+
+.About-page {
+  @extend .Welcome-page;
+}
+
+.Dev-photo {
+  height: 200px;
+  width: 300px;
+  border-radius: 20px;
+  border: 3px ridge $ash-grey;
+}
+
+
+.Projects-page {
+  @extend .Welcome-page;
+}
+
+.Contact-page {
+  @extend .Welcome-page;
+}
