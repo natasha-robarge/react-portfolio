@@ -19,7 +19,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image: url("http://hdflowerwallpaper.com/wallpaper/2015/10/purple-rose-wallpaper-desktop-13-desktop-background.jpg");
   position: center;
   background-size: cover;
 }
@@ -30,12 +29,12 @@ body {
 
 .Titles {
   h4 {
-    text-shadow: 2px 2px $dark-lavender;
+    text-shadow: 3px 3px $grey-blue;
   }
   font-family: $kurale-font;
   padding: 20px 10px;
   font-size: 35px;
-  text-shadow: 3px 3px #FFF;
+  text-shadow: 3px 3px $ash-grey;
 }
 
 .line-rule {
@@ -80,8 +79,7 @@ a:hover {
       padding-top: 30px;
       padding-right: 470px;
     }
-  text-shadow: 1px 1px $ash-grey;
-  color: $grey-blue;
+  color: #48225a;
 }
 
 .About-page {
