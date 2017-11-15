@@ -7,7 +7,8 @@ class About extends Component {
         <div className="Titles about">
           <h1>About Me</h1>
         </div>
-        <img className="Dev-photo" src="https://i.imgur.com/sUeWzze.jpg" alt="The developer giving a lightning talk at a Women Who Code event." />
+        <h3>Summary</h3>
+        <p className="about-p"></p>
       </div>
     );
   }
