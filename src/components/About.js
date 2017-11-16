@@ -14,7 +14,7 @@ class About extends Component {
             <br /> <br /> <br /> Are you ready? <br /> <br /> Start. </p>
         </div>
         <h3>Your First Quest: Watch The Video</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/RBK5Jheu0To" frameborder="0" gesture="media" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RBK5Jheu0To"  gesture="media"></iframe>
         
         <br />
         <h4>What do the games in the presented trailer tell you about the game developer?</h4>

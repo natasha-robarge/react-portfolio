@@ -10,6 +10,7 @@ class Welcome extends Component {
           <h4>Junior Software Developer</h4>
         </div>
         <img className="Dev-photo" src="https://i.imgur.com/sUeWzze.jpg" alt="The developer giving a lightning talk at a Women Who Code event." />
+        <h6>Austin, TX Based | Complimented by New England Flair</h6>
         <p className="Welcome-quote">"The number one benefit of information technology is that it empowers people to do what they want to do. It lets people be creative. It lets people be productive. It lets people learn things they didn't think they could learn before, and so in a sense it is all about potential. " </p>
         <p className="Quote-author"> -  Steve Ballmer </p>
       </div>
