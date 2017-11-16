@@ -100,3 +100,10 @@ a:hover {
 .Contact-page {
   @extend .Welcome-page;
 }
+
+.github, .linkedIn, .twitter, .medium {
+  height: 80px;
+  width: 90px;
+  display: inline-block;
+  padding: 0px 10px;
+}
