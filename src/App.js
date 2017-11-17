@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   Route,
   Link,
+  Redirect,
   Switch
 } from 'react-router-dom';
 import Favicon from 'react-favicon';
@@ -21,6 +22,7 @@ class App extends Component {
             <nav>
               <Link to="/">WELCOME</Link>
               <Link to="/about">ABOUT ME</Link>
+              <a href="https://docs.google.com/document/d/1Yx17q9Smm21T-EBvs5iFASA1dnBIKmhdNRFkAd6M96w/edit?usp=sharing">RESUME</a>
               <Link to="/projects">PROJECTS</Link>
               <Link to="/contact">CONTACT ME</Link>
             </nav>
