@@ -34,7 +34,7 @@ body {
 
 .line-rule {
   width: 400px;
-  border: 1.5px solid $dark-lavender;
+  border: 1.5px solid #5a8dac;
 }
 
 .Container {
@@ -134,6 +134,7 @@ a:hover {
 }
 
 .statement {
+  color: #5a8dac;
   overflow: hidden;
   border-right: 3px solid #5a8dac;
   white-space: nowrap;
@@ -142,22 +143,23 @@ a:hover {
     blink-caret .75s step-end infinite;
 }
 
-.start-game {
-  padding: 30px 60px;
-  color: $raisen-black;  
-}
-
 .separate-line {
   width: 50%;
   border-color: $dark-lavender;
 }
 
-// .talk-photo {
-//   border: 3px groove $ash-grey;
-//   border-radius: 30px;
-//   width: 500px;
-//   height: 300px;
-// }
+.talk-photo {
+  border: 3px groove $ash-grey;
+  border-radius: 30px;
+  width: 500px;
+  height: 300px;
+}
+
+.about-text {
+  background-color: $raisen-black;
+  padding: 80px 0px;
+  color: $ash-grey;
+}
 
 .Dev-photo {
   height: 180px;
