@@ -6,7 +6,7 @@ class About extends Component {
       <div className="About-page">
         <div className="about-container">
           <div className="Titles about">
-            <h1>About Me</h1>
+            <h1 className="statement">I Am a Back-End Developer</h1>
           </div>
             <img className="talk-photo" src="https://i.imgur.com/sUeWzze.jpg" />
             <p className="start-game">I am the protagonist of a video game who is passionate and determined.

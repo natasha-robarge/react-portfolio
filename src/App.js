@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Route,
   Link,
-  Redirect,
   Switch
 } from 'react-router-dom';
 import Favicon from 'react-favicon';
@@ -17,21 +16,23 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-  
+        <Router>
           <div className="Container">
             <nav>
-              <a href="#">WELCOME</a>
-              <a href="#">ABOUT ME</a>
+              <Link to="/">WELCOME</Link>
+              <Link to="/about">ABOUT ME</Link>
               <a href="https://docs.google.com/document/d/1Yx17q9Smm21T-EBvs5iFASA1dnBIKmhdNRFkAd6M96w/edit?usp=sharing">RESUME</a>
-              <a href="#">PROJECTS</a>
-              <a href="#">CONTACT ME</a>
+              <Link to="/projects">PROJECTS</Link>
+              <Link to="/contact">CONTACT ME</Link>
             </nav>
-            <Welcome />
-            <About />
-            <Projects />
-            <Contact />
+            <Switch>
+              <Route exact path="/" component={Welcome} />
+              <Route path="/about" component={About} />
+              <Route path="/projects" component={Projects} />
+              <Route path="/contact" component={Contact} />
+            </Switch>
           </div>
-        
+        </Router>
         <footer>
           <p>Check out my online presence!</p>
           <div className="icon-container">

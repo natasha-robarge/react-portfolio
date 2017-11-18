@@ -18,7 +18,7 @@ $dark-lavender: #6A4C93;
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: $merriweather-font;
 }
 
 .App {
@@ -76,18 +76,18 @@ a:hover {
       padding-right: 200px;
     }
     .welcome-container {
-      background: url("https://www.abdn.ac.uk/news/images/stars.jpg");
-      background-position: cover;
+      background: url("https://www.abdn.ac.uk/news/images/stars.jpg") no-repeat center;
+      background-size: cover;
       color: $grey-blue;
       text-shadow: 3px 3px $dark-lavender;
-      padding: 100px 0px;
+      padding: 20px 0px;
       .welcome {
-        color: $ash-grey;
         text-shadow: 2px 3px $dark-lavender;
       }
-      h4 {
-        color: $ash-grey;
+      .welcome:hover {
         text-shadow: 2px 3px $dark-lavender;
+        color: #5a8dac;
+        font-family: $merriweather-font;
       }
     }
   color: #48225a;
@@ -97,10 +97,18 @@ a:hover {
   @extend .Welcome-page;
 }
 
+.statement {
+  overflow: hidden;
+  border-right: 3px solid #5a8dac;
+  white-space: nowrap;
+  animation: 
+    typing 5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
 .start-game {
   padding: 30px 60px;
-  color: $raisen-black;
-  
+  color: $raisen-black;  
 }
 
 .separate-line {
@@ -150,3 +158,21 @@ footer {
   font-size: 15px;
 }
 
+@keyframes typing {
+  from {
+    width: 0
+  }
+  to {
+    width: 55%
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent
+  }
+  50% {
+    border-color: #5a8dac;
+  }
+}
