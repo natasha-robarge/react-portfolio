@@ -97,6 +97,42 @@ a:hover {
   @extend .Welcome-page;
 }
 
+.about {
+  background: url("https://www.abdn.ac.uk/news/images/stars.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.skill-wrap {
+  background-color: $raisen-black;
+  padding: 20px 0px;
+  color: $ash-grey;
+}
+
+.skill-wrap img {
+  width: 140px;
+  height: 100px;
+  padding: 0px 30px;
+  display: inline-block;
+  text-align: left;
+}
+
+.skill-wrap h5 {
+  display: inline-block;
+  color: $ash-grey;
+}
+
+.songs {
+  background-color: $grey-blue;
+  padding: 20px 0px;
+}
+
+.songs iframe {
+  width: 350px;
+  height: 300px;
+  display: inline;
+  padding: 10px 20px;
+}
+
 .statement {
   overflow: hidden;
   border-right: 3px solid #5a8dac;
@@ -116,12 +152,12 @@ a:hover {
   border-color: $dark-lavender;
 }
 
-.talk-photo {
-  border: 3px groove $ash-grey;
-  border-radius: 30px;
-  width: 500px;
-  height: 300px;
-}
+// .talk-photo {
+//   border: 3px groove $ash-grey;
+//   border-radius: 30px;
+//   width: 500px;
+//   height: 300px;
+// }
 
 .Dev-photo {
   height: 180px;
