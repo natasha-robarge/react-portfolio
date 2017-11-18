@@ -17,23 +17,21 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router>
+  
           <div className="Container">
             <nav>
-              <Link to="/">WELCOME</Link>
-              <Link to="/about">ABOUT ME</Link>
+              <a href="#">WELCOME</a>
+              <a href="#">ABOUT ME</a>
               <a href="https://docs.google.com/document/d/1Yx17q9Smm21T-EBvs5iFASA1dnBIKmhdNRFkAd6M96w/edit?usp=sharing">RESUME</a>
-              <Link to="/projects">PROJECTS</Link>
-              <Link to="/contact">CONTACT ME</Link>
+              <a href="#">PROJECTS</a>
+              <a href="#">CONTACT ME</a>
             </nav>
-            <Switch>
-              <Route exact path="/" component={Welcome} />
-              <Route path="/about" component={About} />
-              <Route path="/projects" component={Projects} />
-              <Route path="/contact" component={Contact} />
-            </Switch>
+            <Welcome />
+            <About />
+            <Projects />
+            <Contact />
           </div>
-        </Router>
+        
         <footer>
           <p>Check out my online presence!</p>
           <div className="icon-container">

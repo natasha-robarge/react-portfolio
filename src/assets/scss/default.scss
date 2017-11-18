@@ -19,8 +19,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image: url("https://www.selectwallpaper.co.uk/uploads/images/products/thumbs/selectwallpaper_portfolio_portfolioarcadespaisley261821322_148977462221322.JPG");
-  background-position: cover;
 }
 
 .App {
@@ -28,9 +26,6 @@ body {
 }
 
 .Titles {
-  h4 {
-    text-shadow: 2px 3px $grey-blue;
-  }
   font-family: $kurale-font;
   padding: 10px;
   font-size: 28px;
@@ -80,6 +75,21 @@ a:hover {
       padding-top: 10px;
       padding-right: 200px;
     }
+    .welcome-container {
+      background: url("https://www.abdn.ac.uk/news/images/stars.jpg");
+      background-position: cover;
+      color: $grey-blue;
+      text-shadow: 3px 3px $dark-lavender;
+      padding: 100px 0px;
+      .welcome {
+        color: $ash-grey;
+        text-shadow: 2px 3px $dark-lavender;
+      }
+      h4 {
+        color: $ash-grey;
+        text-shadow: 2px 3px $dark-lavender;
+      }
+    }
   color: #48225a;
 }
 
@@ -89,9 +99,8 @@ a:hover {
 
 .start-game {
   padding: 30px 60px;
-  background-color: $raisen-black;
-  color: $ash-grey;
-  font-size: 25px;
+  color: $raisen-black;
+  
 }
 
 .separate-line {
@@ -140,3 +149,4 @@ footer {
   padding: 10px 0px;
   font-size: 15px;
 }
+
