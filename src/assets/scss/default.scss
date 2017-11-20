@@ -34,7 +34,7 @@ body {
 
 .line-rule {
   width: 400px;
-  border: 1.5px solid #5a8dac;
+  border: 1.5px solid $dark-lavender;
 }
 
 .Container {
@@ -90,7 +90,7 @@ a:hover {
         font-family: $merriweather-font;
       }
     }
-  color: #48225a;
+  color: $grey-blue;
 }
 
 .About-page {
@@ -100,6 +100,15 @@ a:hover {
 .about {
   background: url("https://www.abdn.ac.uk/news/images/stars.jpg") no-repeat center;
   background-size: cover;
+}
+
+.contact {
+  @extend .about;
+
+}
+
+.projects {
+  @extend .about;
 }
 
 .skill-wrap {
@@ -121,22 +130,10 @@ a:hover {
   color: $ash-grey;
 }
 
-.songs {
-  background-color: $grey-blue;
-  padding: 20px 0px;
-}
-
-.songs iframe {
-  width: 350px;
-  height: 300px;
-  display: inline;
-  padding: 10px 20px;
-}
-
 .statement {
-  color: #5a8dac;
   overflow: hidden;
-  border-right: 3px solid #5a8dac;
+  border-right: 3px solid $raisen-black;
+  color: $grey-blue;
   white-space: nowrap;
   animation: 
     typing 5s steps(40, end),
@@ -157,7 +154,7 @@ a:hover {
 
 .about-text {
   background-color: $raisen-black;
-  padding: 80px 0px;
+  padding: 20px 0px;
   color: $ash-grey;
 }
 
@@ -182,6 +179,21 @@ span {
   @extend .Welcome-page;
 }
 
+.contact-container {
+  background-color: $ash-grey;
+  color: $purple-taupe;
+  padding: 15px 0px;
+  .h2-special {
+    text-align: right;
+    padding-right: 20px;
+  }
+  .special-line {
+    width: 50%;
+    border: 2px solid $raisen-black;
+    margin-right: 0px;
+  }
+}
+
 .github, .linkedIn, .twitter, .medium {
   height: 45px;
   width: 50px;
@@ -201,7 +213,7 @@ footer {
     width: 0
   }
   to {
-    width: 55%
+    width: 50%
   }
 }
 
@@ -211,6 +223,6 @@ footer {
     border-color: transparent
   }
   50% {
-    border-color: #5a8dac;
+    border-color: $raisen-black;
   }
 }

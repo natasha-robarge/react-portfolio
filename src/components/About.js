@@ -9,12 +9,6 @@ class About extends Component {
             <h1 className="statement">I Am a Full Stack Developer</h1>
             <hr className="line-rule" />
           </div>
-          <div className="songs">
-              <h2>Coding Songs for Coding</h2>
-              <iframe src="https://www.youtube.com/embed/b-Cr0EWwaTk" frameborder="0" gesture="media" allowfullscreen></iframe>
-              <iframe src="https://www.youtube.com/embed/Wm2h0cbvsw8" frameborder="0" gesture="media" allowfullscreen></iframe>
-              <iframe src="https://www.youtube.com/embed/jItnCGRsMjw" frameborder="0" gesture="media" allowfullscreen></iframe>
-          </div>
           <div className="about-text">
             <hr />
             <h2>Summary</h2>
@@ -30,8 +24,7 @@ class About extends Component {
             <br />
             <br />
             <p>SIDENOTE: I also enjoy making occassionally bad coding puns because...</p>
-            <h5 className="pun">A smile a day keeps the bugs away</h5>
-          
+            <h5 className="pun">A smile a day keeps the bugs away</h5>   
           </div>
           <div className="skill-wrap">
             <hr />
@@ -43,7 +36,7 @@ class About extends Component {
               <img className="java-py" src="https://yashajadwaniblog.files.wordpress.com/2015/01/python-vs-java-726367-copy.jpg?w=240" />
               <h5 className="java-py-text">Java / Python </h5>
               <img className="front-end" src="https://www.planet-source-code.com/vb/2010Redesign/images/LangugeHomePages/HTML5_CSS_JavaScript.png" />
-              <h5 className="front-end-text">HTML5 / CSS3 (Although I prefer SASS) / JavaScript</h5>
+              <h5 className="front-end-text">HTML5 / CSS3 / JavaScript</h5>
               <img className="database" src="http://softgainz.com/images/database-management.png" />
               <h5 className="database-text">SQL / MongoDB</h5>
           </div>
