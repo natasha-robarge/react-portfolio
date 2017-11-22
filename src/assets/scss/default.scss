@@ -175,6 +175,16 @@ span {
   @extend .Welcome-page;
 }
 
+.nommad-container {
+  background-color: $purple-taupe;
+  padding: 15px 0px;
+}
+
+.pupfetchr-container {
+  background-color: $raisen-black;
+  padding: 15px 0px;
+}
+
 .Contact-page {
   @extend .Welcome-page;
 }
