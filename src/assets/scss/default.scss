@@ -177,11 +177,17 @@ span {
 .nommad-container {
   background-color: $purple-taupe;
   padding: 15px 0px;
+  a {
+    color: $ash-grey;
+  }
 }
 
 .pupfetchr-container {
   background-color: $raisen-black;
   padding: 15px 0px;
+  a {
+    color: $ash-grey;
+  }
 }
 
 .Contact-page {
