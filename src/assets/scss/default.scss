@@ -43,11 +43,11 @@ body {
 }
 
 nav {
-    a {
-      padding: 0px 15px;
-      color: $grey-blue;
-      text-decoration: none;
-   }
+  a {
+    padding: 0px 15px;
+    color: $grey-blue;
+    text-decoration: none;
+  }
   position: relative;
   background-color: $purple-taupe;
   padding: 20px 0px;
@@ -57,7 +57,6 @@ nav {
 a:hover {
   color: $ash-grey;
 }
-
 
 .Welcome-page {
     .Welcome-quote {
@@ -265,6 +264,24 @@ footer {
   .about-text {
     font-size: 14px;
     padding: 10px 5px;
+  }
+  .Projects-page {
+    font-size: 22px;
+  }
+  .nommad-container {
+    a {
+      color: $ash-grey;
+    }
+    padding: 5px;
+    font-size: 12px;
+  }
+  .pupfetchr-container {
+    a {
+      color: $ash-grey;
+    }
+    padding: 5px;
+    font-size: 12px;
+
   }
   .github, .linkedIn, .twitter, .medium {
     width: 25px;

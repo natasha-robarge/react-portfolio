@@ -29,9 +29,9 @@ class Projects extends Component {
             <br />
         </div>
         <div className="pupfetchr-container">
-        <h3>Come adopt a best friend with PupFetchr!</h3>
+        <h2>Come adopt a best friend!</h2>
         <hr />
-        
+        <h3>Welcome to PupFetchr!</h3>
         <h5>We show you dogs that are up for adoption and a way to contact them by zip code</h5>
         <a href="https://nommad-app.firebaseapp.com/">Click here to see the final product!</a>
           <p>What I liked about this project is that we all went into it with so much excitement and passion 
