@@ -227,7 +227,7 @@ footer {
     font-size: 20px;
   }
   .line-rule {
-    width: 50%;
+    width: 200px;
   }
   .Welcome-page {
     .Welcome-quote {
@@ -243,6 +243,28 @@ footer {
     width: 80px;
     height: 100px;
     margin-top: 5px;
+  }
+  .statement {
+    font-size: 24px;
+    text-shadow: 2px 2px $ash-grey;
+  }
+  .skill-wrap img {
+    width: 100px;
+    height: 60px;
+  }
+  .skill-wrap h2 {
+    font-size: 25px;
+  }
+  .skill-wrap h5 {
+    font-size: 12px;
+  }
+  .talk-photo {
+    width: 250px;
+    height: 150px;
+  }
+  .about-text {
+    font-size: 14px;
+    padding: 10px 5px;
   }
   .github, .linkedIn, .twitter, .medium {
     width: 25px;
