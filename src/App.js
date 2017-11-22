@@ -20,10 +20,10 @@ class App extends Component {
           <div className="Container">
             <nav>
               <Link to="/">WELCOME</Link>
-              <Link to="/about">ABOUT ME</Link>
+              <Link to="/about">ABOUT</Link>
               <a href="https://docs.google.com/document/d/1Yx17q9Smm21T-EBvs5iFASA1dnBIKmhdNRFkAd6M96w/edit?usp=sharing">RESUME</a>
               <Link to="/projects">PROJECTS</Link>
-              <Link to="/contact">CONTACT ME</Link>
+              <Link to="/contact">CONTACT</Link>
             </nav>
             <Switch>
               <Route exact path="/" component={Welcome} />
